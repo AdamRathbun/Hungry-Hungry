@@ -29,7 +29,7 @@ app.get('/',(request, response)=>{
 })
 
 app.post('/addItem', (request, response) => {
-    db.collection('items').insertOne({itemName: request.body.itemName})
+    db.collection('items').insertOne({itemName: request.body.itemName.replace(/\s/g, "_").toLowerCase()})
     .then(result => {
         console.log('Item Added')
         response.redirect('/')

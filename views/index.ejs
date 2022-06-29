@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
     <!DOCTYPE html>
@@ -31,10 +31,26 @@
     <% for(let i=0; i < info.length; i++) {%>
         <li class="item">
             <span><%= info[i].itemName %></span>
-            <span class='fa fa-trash'>delete</span>
+            <button class='fa fa-trash'></button>
         </li>
     <% } %>
     </ul>
+
+    
+    <section class="recipe-section">
+        <h4>Get a random dish based on what you have in your fridge (try a protein):</h4>
+        <button type="button" class="recipe-button">Dish!</button>
+
+        <h4>Get a random dish based on what you enter:</h4>
+        <input type="text" placeholder="main ingredient" class="main-ingredient">
+        <button type="button" class="recipe-button2">Dish too!</button>
+
+        <div class="recipe">
+            <h3>Dish name:</h3>
+            <h2 class="dishName"></h2>
+            <img class="dishImg" src="">
+        </div>
+    </section>
 
     <script src='main.js'></script>
 </body>

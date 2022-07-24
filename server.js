@@ -2,7 +2,6 @@ const express = require('express')
 const MongoClient = require('mongodb').MongoClient
 const PORT = 5000
 const app = express()
-require('dotenv').config()
 
 let db,
     dbConnectionStr = 'mongodb+srv://Grepe021:H98ddx20@cluster0.bkprt.mongodb.net/?retryWrites=true&w=majority',

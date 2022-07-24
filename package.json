@@ -2,7 +2,7 @@
   "name": "groceries-deluxe",
   "version": "0.1.0",
   "private": true,
-  "main": "./views/index.ejs",
+  // "main": "./views/index.ejs",
   "engines": {
     "node": "16.15.0",
     "npm": "8.5.5"

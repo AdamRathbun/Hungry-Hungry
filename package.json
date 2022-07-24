@@ -6,6 +6,8 @@
     "node": "16.15.0",
     "npm": "8.5.5"
   },
+  "main": "index.js",
+  "license": "ISC",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
@@ -30,3 +32,5 @@
     ]
   }
 }
+
+

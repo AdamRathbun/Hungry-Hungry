@@ -6,7 +6,7 @@
     "node": "16.15.0",
     "npm": "8.5.5"
   },
-  "main": "./views/index.ejs",
+  "main": "server.js",
   "license": "ISC",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",

@@ -5,8 +5,8 @@ const app = express()
 require('dotenv').config()
 
 let db,
-    dbConnectionStr = 'mongodb+srv://Grepe021:H98ddx20@cluster0.bkprt.mongodb.net/?retryWrites=true&w=majority',
-    dbName = 'groceries'
+  dbConnectionStr = process.env.DB_STRING,
+  dbName = 'groceries'
 
 MongoClient.connect(dbConnectionStr, { useUnifiedTopology: true })
     .then(client => {

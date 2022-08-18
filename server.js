@@ -2,7 +2,7 @@ const express = require('express')
 const MongoClient = require('mongodb').MongoClient
 const PORT = 5001
 const app = express()
-require('dotenv').config()
+require('dotenv').config({path: './.env'})
 
 let db,
   dbConnectionStr = process.env.DB_STRING,

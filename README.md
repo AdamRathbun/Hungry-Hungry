@@ -11,6 +11,7 @@ Allows users to enter a list of groceries they have into a Mongo database, edit 
 - Node
 - MongoDB
 - Express
+- EJS
 - HTML/CSS
 
 

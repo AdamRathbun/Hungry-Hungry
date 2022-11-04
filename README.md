@@ -2,7 +2,7 @@
 
 ## Description
 
-Allows users to enter a list of groceries they have into a Mongo database, edit and sort the data, sort it, check it through themealdb's database of recipes that can be made from those groceries, then returns a random meal that can be made with the ingredients (or at least a starting point ingredient).
+Allows users to enter a list of groceries they have into a Mongo database, edit and sort the data, sort it, check it through themealdb's database of recipes that can be made from those groceries, then returns a random meal that can be made with the ingredients (via starting point ingredient).
 
 
 ### Built with
@@ -25,4 +25,4 @@ The importance of editing and sorting data so it can display better and be bette
 
 ### What to do next time
 
-Do the whole thing in React, configure Heroku hosting
+Redo the whole thing in React.
